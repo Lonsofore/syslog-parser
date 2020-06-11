@@ -1,4 +1,4 @@
-# fibo
+# syslog-parser
 
 Technical home task for a job.
 
