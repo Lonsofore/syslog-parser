@@ -7,7 +7,13 @@ Script to parse and summarize syslog file.
 
 ## Usage
 
-You can just run the script with python:
+### Python
+
+Before run, install script requirements:
+
+```python3 -m pip install -r requirements.txt```
+
+Then you could just run the script with python:
 
 ```python3 parser.py```
 
@@ -21,7 +27,7 @@ You could use arguments to change default settings:
 To test the script install PyTest and run it in script directory via ```pytest``` command.
 
 
-## Docker
+### Docker
 
 You also could run the script with Docker.
 
@@ -37,9 +43,11 @@ If you want to provide arguments (e.g. type):
 
 ```./docker_run.sh --type minute```
 
+
 ## Output example
 
-```app                                  events
+```
+app                                  events
 -------------------------------------------
 kernel                               25032
 dbus-daemon                          222
